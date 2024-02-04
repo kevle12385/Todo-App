@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import { TodoForm } from './todoForm';
+import { TodoForm } from './TodoForm';
 import {v4 as uuidv4} from 'uuid';
 uuidv4(); //generate unique identifiers for every todo object
-import { Todo } from './Todo';
+import { Todo } from './todo';
 import { EditTodoForm } from './EditTodoForm';
 
 /*Serves as a container to manage the list of todo items
